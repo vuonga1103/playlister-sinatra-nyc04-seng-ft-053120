@@ -12,5 +12,3 @@ class Genre < ActiveRecord::Base
       self.all.find { |genre| genre.name.downcase == downcase_genre_name }
   end
 end
-
-# "hello"
